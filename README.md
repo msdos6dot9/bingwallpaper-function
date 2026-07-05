@@ -8,4 +8,4 @@
 
 
 
-**适用平台：**EdgeOne, Netlify
+**适用平台：** EdgeOne, Netlify
