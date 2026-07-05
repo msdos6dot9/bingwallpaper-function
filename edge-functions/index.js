@@ -1,5 +1,5 @@
 // JS 版本的 API：从必应获取今日壁纸并返回图片流
-// 适用于 Tencent EdgeOne Maker Functions / Cloudflare Pages / Netlify 等 serverless 环境
+// 适用于 Tencent EdgeOne Maker Functions / Netlify 等 serverless 环境
 
 async function handleRequest(request) {
   try {
@@ -40,7 +40,7 @@ async function handleRequest(request) {
   }
 }
 
-// Cloudflare Pages / EdgeOne Pages 风格（context.request）
+// EdgeOne Pages 风格（context.request）
 export async function onRequest(context) {
   return handleRequest(context.request);
 }
