@@ -1,0 +1,8 @@
+{
+  "name": "bingwallpaper-function",
+  "entry": "./edge-functions/index.js",
+  "assets": {
+    "directory": "./edge-functions",
+    "notFoundStrategy": "singlePageApplication"
+  }
+}
