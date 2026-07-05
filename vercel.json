@@ -1,13 +1,13 @@
 {
   "functions": {
-    "api/edge-functions/index.js": {
+    "api/vercel.js": {
       "maxDuration": 10,
       "memory": 1024
     }
   },
   "rewrites": [
     {
-      "source": "/edge-functions/:path*",
+      "source": "/api/:path*",
       "destination": "/"
     }
   ]
