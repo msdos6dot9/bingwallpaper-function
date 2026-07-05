@@ -1,6 +1,6 @@
 import { handleRequest } from '../edge-functions/index.js';
 
-// Vercel Serverless Function
+// for Vercel
 export default async function handler(req, res) {
   try {
     const host = req.headers.host || 'localhost';
